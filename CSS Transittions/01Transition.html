@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes bounce {
+            
+            0%{
+                transform: translatey(0);
+            }
+            20%{
+                transform: translatey(98vh);
+            }
+            25%{
+                transform: translatey(10vh);
+            }
+            30%{
+                transform: translatey(98vh);
+            }
+            35%{
+                transform: translatey(20vh);
+            }
+            40%{
+                transform: translatey(98vh);
+            }
+            45%{
+                transform: translatey(30vh);
+            }
+            50%{
+                transform: translatey(98vh);
+            }
+            55%{
+                transform: translatey(40vh);
+            }
+            60%{
+                transform: translatey(98vh);
+            }
+            65%{
+                transform: translatey(50vh);
+            }
+            70%{
+                transform: translatey(98vh);
+            }
+            75%{
+                transform: translatey(60vh);
+            }
+            80%{
+                transform: translatey(98vh);
+            }
+        
+
+        }
+        img{
+            position: absolute;
+            top: 25px;
+            height: 100px;
+        }
+        button{
+        animation: 4s linear 0s infinite;
+        border: none;
+        border-radius: 500px;
+        position: absolute;
+        left: 100px; 
+        font-size: 20px;
+        height: 80px;
+        width: 80px;
+        transition: all 0.5s ease 0s;
+        background-color: blue;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <button>Bounce</button>
+    <img src="../HTML media/rajni-2.png" alt="">
+</body>
+</html>
